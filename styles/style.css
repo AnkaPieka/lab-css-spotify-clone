@@ -109,19 +109,50 @@
 /*section 3*/
 #yeezy-section{
     font-family: Arial, Helvetica, sans-serif;
-    height: 600px;
+    height: 400px;
     background-color: #00B172;
     margin: 0 15px;
     color: white;
     padding: 40px;
     display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: nowrap;
+    position: relative;
 }
 
 #right img{
     width: 200px;
 }
 
+#spotify-logo {
+    position : absolute;
+    /* background-color: #FFF; */
+    width: 4em;
+    top: 50%;
+    left: 50%;
+}
 
+#left h3 {
+    text-decoration: underline;
+    font-size: 1.8em;
+    margin-right: 50px;
+}
+
+h4 {
+    font-weight:bold;
+    margin: 1.2em 0;
+    font-size: 1.2em;
+}
+
+.sec3-left {
+    width: 15rem;
+}
+
+#right {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
 
 /*
 Colors:
